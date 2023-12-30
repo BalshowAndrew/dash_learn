@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dash-learn"
+version = "0.1.0"
+description = ""
+authors = ["Andrew <balshowandrew@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dash = "^2.14.2"
+pandas = "^2.1.4"
+jupyter-dash = "^0.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
